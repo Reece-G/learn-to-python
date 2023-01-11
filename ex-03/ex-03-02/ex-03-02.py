@@ -13,7 +13,7 @@ except:
 # if statement to recognise when overtime has been accured and adjusts formula to account for that in end pay.
 if fhrs > 40:
     over = fhrs - 40
-    gross = (fpay * fhrs) + (1.5 * fpay * over)
+    gross = (fpay * (fhrs - over)) + (1.5 * fpay * over)
 else:
     gross = fpay * fhrs 
 
