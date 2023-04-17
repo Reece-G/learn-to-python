@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+def computepay()
+    #ask user for input and check data provided is useable. 
+    inp = input("Enter score: ")
+    try: 
+        inp = float(inp)
+    except:
+        print("Please enter a score.")
+    
+    #compute score given from user and print the string grade
+=======
 # Define function for computing the grade by asking for input and returning the grade as a string 
 def computegrade():
     # Ask user for score input.
@@ -23,3 +34,4 @@ def computegrade():
 
 
 computegrade()
+>>>>>>> 54debe50691a7458511c4ab737cf34786669c370
